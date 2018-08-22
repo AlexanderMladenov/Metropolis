@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LibraryPath>E:\Metropolis\lib\embree-3.2.0.x64.windows\lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>E:\Metropolis\lib\embree-3.2.0.x64.windows\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\lib\embree-3.2.0.x64.windows\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\lib\embree-3.2.0.x64.windows\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -87,7 +87,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>E:\Metropolis\lib\embree-3.2.0.x64.windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\lib\embree-3.2.0.x64.windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies>embree3.lib;tbb.lib;tbbmalloc.lib;%(AdditionalDependencies)</AdditionalDependencies>
