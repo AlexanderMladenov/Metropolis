@@ -1,0 +1,11 @@
+﻿  main.cpp
+  LINK : 0 new modules and 1 (out of 35) modules have changed since prior linking
+  Starting pass 2
+       main.obj
+       MSVCRTD.lib(loadcfg.obj)
+  Finished pass 2
+  Not launching VCTIP: it is flagged as unstable
+  Win32 API 'CreateFile' failed with 2
+  Not launching VCTIP: it is flagged as unstable
+  Telemetry event upload failed: 'Failed to open connection to VCTIP'
+  Metropolis.vcxproj -> E:\Metropolis\Metropolis\x64\Debug\Metropolis.exe
