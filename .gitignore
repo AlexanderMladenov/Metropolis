@@ -1,2 +1,6 @@
 /Metropolis/.vs
 /Metropolis/*.user
+Metropolis/x64/Debug/*.exe
+Metropolis/x64/Release/*.exe
+Metropolis/x64/Release/*.pdb
+Metropolis/x64/Debug/*.pdb
