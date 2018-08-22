@@ -15,7 +15,8 @@ int main()
 
   /* ddelete device again */
   rtcReleaseDevice(device);
-  while (true) {}
+  for (;;) {}
   return 0;
+
 
 }
